@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Rede</title>
+</head>
+
+
+<body>
+    
+  
+    <div class="fixed">
+        <div id="sidebar">
+            <img src="logo.jpg" alt="" id="logo" srcset="">
+            <ol>
+                <li>
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    <span class="menu-items">Página Inicial</span>
+                </li>
+                <li><span class="material-symbols-outlined">search</span>
+                    <span class="menu-items">Explorar</span>
+                </li>
+                <li> <span class="material-symbols-outlined">notifications</span>
+                    <span class="menu-items">Notificações</span>
+                </li>
+                <li><span id="dark-mode" onclick="dark_mode()" class="material-symbols-outlined">
+                    toggle_off
+                </span></li>
+            </ol>
+        </div>
+    </div>
+
+    
+    <div id="main">
+        <div class="tweet">
+            
+            
+            <img src="logo.jpg" alt="" id="logo-tweet">
+            <input type="text" id="text" placeholder="O que está acontecendo?">
+            <div id="back-icons">
+                <div>
+                    <label for="imageInput" id="camera"><span class="material-icons icon">photo_camera</span></label>
+                    <input type="file" id="imageInput" accept="image/*">
+                    
+                  </div>
+                  <div>
+                    <span class="material-icons icon">audiotrack</span>
+                  </div>
+                  <div>
+                    <span class="material-icons icon">insert_emoticon</span> 
+                  </div>
+                  <div>
+                    <span class="material-icons icon">gif</span> 
+                  </div>
+                <button id="btn-postar">Postar</button>
+            </div>
+            
+        </div>
+        <div id="tweets-container">
+            
+
+        </div>
+    </div>
+    
+    
+    
+    
+   
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
